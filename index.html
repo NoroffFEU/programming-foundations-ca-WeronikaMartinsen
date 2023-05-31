@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,800;1,400;1,700;1,800&display=swap"
       rel="stylesheet"
     />
+    <script src="js/script.js"></script>
   </head>
 
   <body>
@@ -19,9 +20,9 @@
       <h1>Tesla 3</h1>
       <h2>Electronic revolution</h2>
       <img src="images/tesla.jpg" alt="Image of the car Tesla Model 3." />
-      <button>Start engine</button>
+      <button onclick="audio.play();" id="startEngine">Start engine</button>
+      <audio id="engineSound" src="/audio/electric-car-107096.mp3"></audio>
+      <script src="js/mycar.js"></script>
     </div>
-
-    <script src="js/script.js"></script>
   </body>
 </html>
