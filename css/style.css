@@ -42,6 +42,12 @@ button {
   font-weight: 500;
   transition: background-image 0.3s ease;
 }
+.smaller {
+  width: 12em;
+  height: 3em;
+  text-transform: none;
+  font-size: 0.9em;
+}
 button:hover,
 button:hover {
   background-image: linear-gradient(to right, #2e2b2b, #000000);

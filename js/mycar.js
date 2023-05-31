@@ -14,8 +14,24 @@ const car = {
     console.log("Engine stopped");
   },
 };
+console.log(car);
 
 //Function
+
+var heading = document.querySelector("h1");
+var buttonSmaller = document.querySelector(".smaller");
+var buttonColors = document.querySelector("#colors");
+var body = document.querySelector("body");
+
+function changeHeading() {
+  heading.innerHTML = "Your New Brand";
+}
+buttonSmaller.onclick = changeHeading;
+
+function changeColors() {
+  body.style.backgroundColor = "white";
+}
+buttonColors.onclick = changeColors;
 
 //Statment practising
 
@@ -38,3 +54,24 @@ if (getCar === "Tesla" && year >= 2022 && isElectric === true) {
 }
 
 //Arrays practising
+
+var product1 = {
+  id: 1,
+  name: "Tesla Model 1",
+  price: 500.0,
+};
+
+var product2 = {
+  id: 2,
+  name: "Tesla Model 2",
+  price: 650.0,
+};
+
+var product3 = {
+  id: 3,
+  name: "Tesla Model 3",
+  price: 700.0,
+};
+
+var products = [product1, product2, product3];
+console.log(products);
