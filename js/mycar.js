@@ -75,3 +75,46 @@ var product3 = {
 
 var products = [product1, product2, product3];
 console.log(products);
+
+// Function (button sound)
+
+var sound = new Audio();
+sound.src = "audio/electric-car-107096.mp3";
+
+// Practising
+
+var products = [product1, product2, product3];
+var product1 = products[0];
+var product3 = products[2];
+
+console.log(product3);
+
+//Add a new item to this array using the push method and console log the new amount of items.
+
+var products = [product1, product2, product3];
+
+products.push("product4");
+console.log(products.length);
+
+products.push("product5");
+console.log(products.length);
+
+var newProduct = "product0";
+products.unshift(newProduct);
+
+console.log(products.length);
+
+for (var i = 0; i < products.length; i++) {
+  var col = products[i];
+  console.log(col);
+}
+
+var moreThings = [14, "cat", true, 29, "fox", true, 34, 19];
+
+for (i = 0; i < moreThings.length; i++) {
+  var typeOfItem = typeof moreThings[i];
+
+  if (typeOfItem === "number") {
+    console.log(moreThings[i]);
+  }
+}
