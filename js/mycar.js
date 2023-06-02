@@ -135,16 +135,6 @@ let details = data.map(function (item) {
 
 info.innerHTML = details.join("\n");
 
-/////////////////Hover effect////////////////////////////////
-
-const img = document.querySelector(".img");
-
-img.addEventListener("mouseenter", () => {
-  if (!img.classList.contains("hover")) {
-    img.classList.add("hover");
-  }
-});
-
 // Function (button sound)
 
 var sound = new Audio();
