@@ -52,3 +52,16 @@ button:hover,
 button:hover {
   background-image: linear-gradient(to right, #2e2b2b, #000000);
 }
+
+#info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#info div {
+  padding: 3em;
+  background-color: #2e2b2b;
+  font-size: 1em;
+  color: white;
+  margin: 1em;
+  border-radius: 20px;
+}

@@ -76,6 +76,51 @@ var product3 = {
 var products = [product1, product2, product3];
 console.log(products);
 
+//////////////////////////////
+
+let data = [
+  {
+    name: "Tesla 1",
+    year: 2019,
+    price: 500.0,
+  },
+  {
+    name: "Tesla 2",
+    year: 2019,
+    price: 500.0,
+  },
+  {
+    name: "Tesla 3",
+    year: 2019,
+    price: 500.0,
+  },
+  {
+    name: "Tesla 4",
+    year: 2019,
+    price: 500.0,
+  },
+  {
+    name: "Tesla 5",
+    year: 2019,
+    price: 500.0,
+  },
+  {
+    name: "Tesla 6",
+    year: 2019,
+    price: 500.0,
+  },
+];
+
+const info = document.querySelector("#info");
+
+let details = data.map(function (item) {
+  return (
+    "<div>" + item.name + " " + item.year + "  " + item.price + " " + "</div>"
+  );
+});
+
+info.innerHTML = details.join("\n");
+
 // Function (button sound)
 
 var sound = new Audio();
@@ -107,14 +152,4 @@ console.log(products.length);
 for (var i = 0; i < products.length; i++) {
   var col = products[i];
   console.log(col);
-}
-
-var moreThings = [14, "cat", true, 29, "fox", true, 34, 19];
-
-for (i = 0; i < moreThings.length; i++) {
-  var typeOfItem = typeof moreThings[i];
-
-  if (typeOfItem === "number") {
-    console.log(moreThings[i]);
-  }
 }
