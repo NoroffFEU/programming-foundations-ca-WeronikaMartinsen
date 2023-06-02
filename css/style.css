@@ -58,7 +58,7 @@ button:hover {
   grid-template-columns: 1fr 1fr 1fr;
 }
 #info div {
-  padding: 3em;
+  padding: 2em;
   background-color: #2e2b2b;
   font-size: 1em;
   color: white;

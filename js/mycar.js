@@ -19,6 +19,7 @@ console.log(car);
 //Function
 
 var heading = document.querySelector("h1");
+var heading2 = document.querySelector("h2");
 var buttonSmaller = document.querySelector(".smaller");
 var buttonColors = document.querySelector("#colors");
 var body = document.querySelector("body");
@@ -29,7 +30,9 @@ function changeHeading() {
 buttonSmaller.onclick = changeHeading;
 
 function changeColors() {
-  body.style.backgroundColor = "white";
+  body.style.backgroundColor = "black";
+  heading.style.color = "white";
+  heading2.style.color = "white";
 }
 buttonColors.onclick = changeColors;
 
@@ -81,33 +84,33 @@ console.log(products);
 let data = [
   {
     name: "Tesla 1",
-    year: 2019,
-    price: 500.0,
+    year: 2023,
+    price: "650.000 NOK",
   },
   {
     name: "Tesla 2",
-    year: 2019,
-    price: 500.0,
+    year: 2022,
+    price: "650.000 NOK",
   },
   {
     name: "Tesla 3",
-    year: 2019,
-    price: 500.0,
+    year: 2021,
+    price: "650.000 NOK",
   },
   {
     name: "Tesla 4",
-    year: 2019,
-    price: 500.0,
+    year: 2020,
+    price: "650.000 NOK",
   },
   {
     name: "Tesla 5",
-    year: 2019,
-    price: 500.0,
+    year: 2017,
+    price: "650.000 NOK",
   },
   {
     name: "Tesla 6",
     year: 2019,
-    price: 500.0,
+    price: "650.000 NOK",
   },
 ];
 
@@ -115,7 +118,18 @@ const info = document.querySelector("#info");
 
 let details = data.map(function (item) {
   return (
-    "<div>" + item.name + " " + item.year + "  " + item.price + " " + "</div>"
+    "<div>" +
+    item.name +
+    "<br>" +
+    "Year:" +
+    " " +
+    item.year +
+    "<br>" +
+    "Price:" +
+    "  " +
+    item.price +
+    " " +
+    "</div>"
   );
 });
 
