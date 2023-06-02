@@ -11,7 +11,9 @@ body {
   align-items: center;
   margin: 2em;
 }
-
+p {
+  text-align: center;
+}
 #paragr {
   text-transform: uppercase;
   font-weight: 600;
@@ -25,6 +27,7 @@ img {
 h1 {
   font-size: 3em;
   margin: 0;
+  text-align: center;
 }
 
 h2 {
