@@ -23,6 +23,8 @@ var heading2 = document.querySelector("h2");
 var buttonSmaller = document.querySelector(".smaller");
 var buttonColors = document.querySelector("#colors");
 var body = document.querySelector("body");
+var paragraph = document.querySelector("p");
+var paragraph2 = document.querySelector("#paragr");
 
 function changeHeading() {
   heading.innerHTML = "Your future car";
@@ -33,6 +35,8 @@ function changeColors() {
   body.style.backgroundColor = "black";
   heading.style.color = "white";
   heading2.style.color = "white";
+  paragraph.style.color = "white";
+  paragraph2.style.color = "white";
 }
 buttonColors.onclick = changeColors;
 
