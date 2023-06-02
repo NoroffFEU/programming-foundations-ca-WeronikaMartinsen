@@ -1,0 +1,13 @@
+@media (max-width: 650px) {
+  #info {
+    grid-template-columns: 1fr 1fr;
+  }
+  img {
+    width: 100%;
+  }
+}
+@media (max-width: 450px) {
+  #info {
+    grid-template-columns: 1fr;
+  }
+}
