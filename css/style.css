@@ -12,7 +12,7 @@ body {
   margin: 2em;
 }
 
-.p-element {
+#paragr {
   text-transform: uppercase;
   font-weight: 600;
 }
