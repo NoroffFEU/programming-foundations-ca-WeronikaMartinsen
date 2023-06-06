@@ -199,5 +199,10 @@ const searchButton = document.getElementsByClassName("searchButton");
 
 searchButton.addEventListener("click", function () {
   const searchTerm = searchInput.value;
-  console.log("Searching for correct answer");
+  if ( searchTerm === 2008) {
+document.createElement("p").innerHTML = "Your answer is correct!";
+  }
+  else ( searchTerm !== 2008) {
+    document.createElement("p").innerHTML = "Try again!";
+  };
 });
