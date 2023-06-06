@@ -25,6 +25,7 @@ var buttonColors = document.querySelector("#colors");
 var body = document.querySelector("body");
 var paragraph = document.querySelector("p");
 var paragraph2 = document.querySelector("#paragr");
+var quiz = document.querySelector(".quiz");
 
 function changeHeading() {
   heading.innerHTML = "Your future car";
@@ -37,6 +38,7 @@ function changeColors() {
   heading3.style.color = "white";
   paragraph.style.color = "white";
   paragraph2.style.color = "white";
+  quiz.style.color = "white";
 }
 buttonColors.onclick = changeColors;
 
@@ -192,11 +194,10 @@ info.innerHTML = details.join("\n");
 
 /////////////////// Function If///////////
 
-var siteSearch = document.getElementById("#siteSearch");
-var randomNumber = 2008;
+const searchInput = document.getElementById("searchInput");
+const searchButton = document.getElementsByClassName("searchButton");
 
-if (randomNumber === 2008) {
-  console.log("It is correct answer! You won one lollypop!");
-} else {
-  console.log("Try again!");
-}
+searchButton.addEventListener("click", function () {
+  const searchTerm = searchInput.value;
+  console.log("Searching for correct answer");
+});
