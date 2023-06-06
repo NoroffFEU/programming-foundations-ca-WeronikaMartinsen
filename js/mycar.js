@@ -117,10 +117,28 @@ for (var i = 0; i < products.length; i++) {
 }
 
 /////////////////////////////////////Changes images - statement/////////////////
-changeImage = document.getElementById("#changeImage");
+var sliderImage = document.querySelector(".slider-image");
+var images = [
+  "tesla-2.jpg",
+  "tesla-3.jpg",
+  "tesla-4.jpg",
+  "tesla-5.jpg",
+  "tesla-6.jpg",
+];
+var i = 0;
 
-function changeImage() {
-  changeImage.onclick = src("images/tesla-2.jpg");
+function prev() {
+  if (i <= 0) i = images.length;
+  i--;
+  return setImg();
+}
+function next() {
+  if (i >= images.length - 1) i = -1;
+  i++;
+  return setImg();
+}
+function setImg() {
+  return sliderImage.setAttribute("src", "images/" + images[i]);
 }
 //////////////////////////////
 

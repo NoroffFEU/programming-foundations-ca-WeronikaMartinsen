@@ -28,20 +28,30 @@ img {
   width: 60%;
   border-radius: 20px;
 }
-#images {
-  background-color: white;
-  max-width: 60em;
+#slider {
+  background-color: #2e2b2b;
+  width: 40em;
+  height: 30em;
   border-radius: 20px;
   padding: 2em;
-  margin-top: 1em;
+  margin-top: 3em;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-#tesla {
-  width: 50%;
+.image-box img {
+  width: auto;
+  height: 400px;
 }
+.btn-box {
+  display: flex;
+}
+.btn {
+  width: auto;
+  padding: 1em;
+}
+
 .next {
   margin-top: 1em;
   text-decoration: underline;
@@ -56,6 +66,7 @@ h1 {
 h2 {
   font-size: 1.5em;
   font-weight: 400;
+  margin-top: 3em;
 }
 
 button {
@@ -74,7 +85,19 @@ button {
   font-weight: 500;
   transition: background-image 0.3s ease;
 }
-
+.btn {
+  margin-top: 1em;
+  color: white;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:active {
+  color: #9f5353;
+}
+.span-box {
+  display: flex;
+  gap: 4em;
+}
 .smaller {
   width: 12em;
   height: 3em;
