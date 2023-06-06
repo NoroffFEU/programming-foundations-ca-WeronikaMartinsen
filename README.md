@@ -1,4 +1,4 @@
-# My car Object
+# Tesla Object
 
 This object has the following properties:
 
