@@ -19,7 +19,7 @@ console.log(car);
 //Function
 
 var heading = document.querySelector("h1");
-var heading2 = document.querySelector("h2");
+var heading3 = document.querySelector("h3");
 var buttonSmaller = document.querySelector(".smaller");
 var buttonColors = document.querySelector("#colors");
 var body = document.querySelector("body");
@@ -34,7 +34,7 @@ buttonSmaller.onclick = changeHeading;
 function changeColors() {
   body.style.backgroundColor = "black";
   heading.style.color = "white";
-  heading2.style.color = "white";
+  heading3.style.color = "white";
   paragraph.style.color = "white";
   paragraph2.style.color = "white";
 }
@@ -118,13 +118,7 @@ for (var i = 0; i < products.length; i++) {
 
 /////////////////////////////////////Changes images - statement/////////////////
 var sliderImage = document.querySelector(".slider-image");
-var images = [
-  "tesla-2.jpg",
-  "tesla-3.jpg",
-  "tesla-4.jpg",
-  "tesla-5.jpg",
-  "tesla-6.jpg",
-];
+var images = ["tesla-2.jpg", "tesla-5.jpg", "tesla-6.jpg"];
 var i = 0;
 
 function prev() {
