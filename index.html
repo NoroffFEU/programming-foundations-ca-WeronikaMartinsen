@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,800;1,400;1,700;1,800&display=swap"
       rel="stylesheet"
     />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <script src="js/script.js"></script>
   </head>
 
@@ -20,8 +21,27 @@
     <div class="tesla-div">
       <h1>Tesla</h1>
       <p>Where Innovation Meets Sustainability</p>
+
       <p id="paragr">Welcome to Tesla</p>
+
       <button class="smaller">Try it</button>
+      <p>
+        Tesla’s release positioned it as one of the few successful independent
+        automakers and a pioneer in the electric car market.
+      </p>
+      <div class="quiz">
+        <iconify-icon id="icon" icon="teenyicons:question-solid"></iconify-icon>
+        <p>Do you want to play and win free Tesla gadget?</p>
+        <p>Answer question above:</p>
+        <p>When did Tesla release first electric car?</p>
+        <label for="site-search"
+          >When did Tesla first come out with a car?</label
+        >
+        <input type="search" id="site-search" name="q" />
+
+        <button class="btn-check">Check your answer</button>
+      </div>
+
       <img src="images/tesla.jpg" alt="Image of the car Tesla Model 3." />
       <button onmousedown="sound.play()" id="startEngine">Start engine</button>
       <div id="slider">

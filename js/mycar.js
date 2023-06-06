@@ -189,3 +189,14 @@ let details = data.map(function (item) {
 });
 
 info.innerHTML = details.join("\n");
+
+/////////////////// Function If///////////
+
+var siteSearch = document.getElementById("#siteSearch");
+var randomNumber = 2008;
+
+if (randomNumber === 2008) {
+  console.log("It is correct answer! You won one lollypop!");
+} else {
+  console.log("Try again!");
+}
