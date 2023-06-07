@@ -119,6 +119,7 @@ for (var i = 0; i < products.length; i++) {
 }
 
 /////////////////////////////////////Changes images - statement/////////////////
+
 var sliderImage = document.querySelector(".slider-image");
 var images = ["tesla-2.jpg", "tesla-5.jpg", "tesla-6.jpg"];
 var i = 0;
@@ -209,4 +210,41 @@ document.createElement("p").innerHTML = "Your answer is correct!";
   };
 });
 
-***/ //
+***/ //Tasks Module 2
+
+/*
+var winningNumbers = [1, 76, 2, 78, 16, 7];
+var thirdItem = winningNumbers[2];
+console.log(thirdItem);
+
+var vegetables = ["rice", "potatoes", "porridge", "cake", "spinach"];
+
+vegetables.push("meat");
+
+console.log(vegetables);
+
+var randomThings = ["pumpkin", false, 23, true, "tomato"];
+
+for (i = 0; i < randomThings.length; i++) {
+  console.log(randomThings.length[i]);
+}
+
+*/
+
+function addElement() {
+  const newDiv = document.createElement("div");
+
+  const newContent = document.createTextNode("Hi there");
+
+  newDiv.appendChild(newContent);
+
+  const currentDiv = document.getElementById("div1");
+  document.body.insertBefore(newDiv, currentDiv);
+}
+//////////////////////////
+
+var searchInput = document.querySelector("searchInput");
+
+function changeStyle() {
+  searchInput.style.border = "2px solid black";
+}
