@@ -193,7 +193,9 @@ let details = data.map(function (item) {
 info.innerHTML = details.join("\n");
 
 /////////////////// Function If///////////
-
+/**
+ * 
+ *
 const searchInput = document.getElementById("searchInput");
 const searchButton = document.getElementsByClassName("searchButton");
 
@@ -206,3 +208,5 @@ document.createElement("p").innerHTML = "Your answer is correct!";
     document.createElement("p").innerHTML = "Try again!";
   };
 });
+
+***/ //
