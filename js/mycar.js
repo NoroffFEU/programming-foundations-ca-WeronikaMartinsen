@@ -24,8 +24,6 @@ var buttonSmaller = document.querySelector(".smaller");
 var buttonColors = document.querySelector("#colors");
 var body = document.querySelector("body");
 var paragraph = document.querySelector("p");
-var paragraph2 = document.querySelector("#paragr");
-var quiz = document.querySelector(".quiz");
 
 function changeHeading() {
   heading.innerHTML = "Model 3";
@@ -33,12 +31,8 @@ function changeHeading() {
 buttonSmaller.onclick = changeHeading;
 
 function changeColors() {
-  body.style.backgroundColor = "black";
-  heading.style.color = "white";
-  heading3.style.color = "white";
+  body.style.backgroundColor = "white";
   paragraph.style.color = "white";
-  paragraph2.style.color = "white";
-  quiz.style.color = "white";
 }
 buttonColors.onclick = changeColors;
 
