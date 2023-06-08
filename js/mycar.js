@@ -28,7 +28,7 @@ var paragraph2 = document.querySelector("#paragr");
 var quiz = document.querySelector(".quiz");
 
 function changeHeading() {
-  heading.innerHTML = "Your future car";
+  heading.innerHTML = "Model 3";
 }
 buttonSmaller.onclick = changeHeading;
 
@@ -212,15 +212,15 @@ function whatYearTesla() {
 
   if (searchInput == answer) {
     document.getElementById("resultTeslaYear").innerHTML =
-      "Congrats! You won a lollypop!";
+      "That`s correct! You just won a free Tesla gadget!";
   } else if (searchInput > 2005 && searchInput < 2008) {
     document.getElementById("resultTeslaYear").innerHTML =
-      "You were so closed! Try again!";
+      "You were so close! Try again!";
   } else if (searchInput > 2008 && searchInput <= 2011) {
     document.getElementById("resultTeslaYear").innerHTML =
       "You were so closed! Try again!";
   } else {
     document.getElementById("resultTeslaYear").innerHTML =
-      "To far! Maybe next time?";
+      "Sorry, you are wrong. Maybe next time?";
   }
 }

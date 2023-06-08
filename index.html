@@ -19,19 +19,26 @@
 
   <body>
     <div class="tesla-div">
-      <h1>Welcome to Tesla</h1>
-      <button class="smaller">Click me</button>
+      <h1>My Tesla</h1>
+
+      <button class="smaller">Which model?</button>
       <img src="images/tesla.jpg" alt="Image of the car Tesla Model 3." />
       <button onmousedown="sound.play()" id="startEngine">Start engine</button>
-      <p id="paragr">Shaping the Future of Mobility</p>
-      <p>Here Innovation Meets Sustainability</p>
-
-      <p>
-        Tesla’s release positioned it as one of the few successful independent
-        automakers and a pioneer in the electric car market.
-      </p>
+      <p id="paragr">Made in 2022</p>
+      <p>White</p>
+      <p>Droven 10000 miles</p>
+      <p>Pioneer in the electric car market.</p>
+      <div class="select">
+        <p>Features:</p>
+        <select name="dropdown" id="dropdown">
+          <option value="Autopilot">Autopilot</option>
+          <option value="Full self-driving">Full self-driving</option>
+          <option value="Premium interior">Premium interior</option>
+        </select>
+      </div>
       <div class="quiz">
         <iconify-icon id="icon" icon="teenyicons:question-solid"></iconify-icon>
+        <h3>Quiz</h3>
         <p>Do you want to play and win free Tesla gadget?</p>
         <p>Answer the question below:</p>
         <label for="site-search"
@@ -66,9 +73,9 @@
           <span class="btn" onclick="next()">Next &rarr;</span>
         </div>
       </div>
-      <h3>Tesla Models</h3>
+      <h3 class="h3">Other Models</h3>
       <div id="info"></div>
-      <button id="colors" class="smaller">New color</button>
+      <button id="colors" class="smaller">Change background</button>
       <script src="js/mycar.js"></script>
     </div>
   </body>

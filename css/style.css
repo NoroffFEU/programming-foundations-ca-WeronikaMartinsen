@@ -26,7 +26,8 @@ p {
   font-size: 1.5em;
 }
 .quiz {
-  border: 1px solid #9f5353;
+  border: 2px solid #9f5353;
+
   border-radius: 20px;
   padding: 2em;
   margin: 2em;
@@ -56,6 +57,13 @@ img {
   margin-top: 2em;
   width: 60%;
   border-radius: 20px;
+}
+.select {
+  display: flex;
+}
+#dropdown {
+  border-radius: 20px;
+  padding: 1em 1.5em;
 }
 #slider {
   width: 40em;
@@ -99,6 +107,10 @@ h2 {
   font-weight: 400;
 }
 h3 {
+  font-size: 2em;
+  margin: 0;
+}
+.h3 {
   font-size: 1.5em;
   font-weight: 400;
   margin-top: 3em;
