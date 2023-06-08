@@ -249,8 +249,16 @@ function whatYearTesla() {
   var searchInput = document.getElementById("searchInput").value;
 
   if (searchInput == answer) {
-    document.getElementById("resultTeslaYear").innerHTML = "Correct answer!";
+    document.getElementById("resultTeslaYear").innerHTML =
+      "Congrats! You won a lollypop!";
+  } else if (searchInput > 2005 && searchInput < 2008) {
+    document.getElementById("resultTeslaYear").innerHTML =
+      "You were so closed! Try again!";
+  } else if (searchInput > 2008 && searchInput <= 2011) {
+    document.getElementById("resultTeslaYear").innerHTML =
+      "You were so closed! Try again!";
   } else {
-    document.getElementById("resultTeslaYear").innerHTML = "Ops! Try again!";
+    document.getElementById("resultTeslaYear").innerHTML =
+      "To far! Maybe next time?";
   }
 }
