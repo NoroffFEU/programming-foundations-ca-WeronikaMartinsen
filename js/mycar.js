@@ -193,44 +193,6 @@ let details = data.map(function (item) {
 
 info.innerHTML = details.join("\n");
 
-/////////////////// Function If///////////
-/**
- * 
- *
-const searchInput = document.getElementById("searchInput");
-const searchButton = document.getElementsByClassName("searchButton");
-
-searchButton.addEventListener("click", function () {
-  const searchTerm = searchInput.value;
-  if ( searchTerm === 2008) {
-document.createElement("p").innerHTML = "Your answer is correct!";
-  }
-  else ( searchTerm !== 2008) {
-    document.createElement("p").innerHTML = "Try again!";
-  };
-});
-
-***/ //Tasks Module 2
-
-/*
-var winningNumbers = [1, 76, 2, 78, 16, 7];
-var thirdItem = winningNumbers[2];
-console.log(thirdItem);
-
-var vegetables = ["rice", "potatoes", "porridge", "cake", "spinach"];
-
-vegetables.push("meat");
-
-console.log(vegetables);
-
-var randomThings = ["pumpkin", false, 23, true, "tomato"];
-
-for (i = 0; i < randomThings.length; i++) {
-  console.log(randomThings.length[i]);
-}
-
-*/
-
 function addElement() {
   const newDiv = document.createElement("div");
 
