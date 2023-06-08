@@ -243,8 +243,14 @@ function addElement() {
 }
 //////////////////////////
 
-var searchInput = document.querySelector("searchInput");
+var answer = 2008;
 
-function changeStyle() {
-  searchInput.style.border = "2px solid black";
+function whatYearTesla() {
+  var searchInput = document.getElementById("searchInput").value;
+
+  if (searchInput == answer) {
+    document.getElementById("resultTeslaYear").innerHTML = "Correct answer!";
+  } else {
+    document.getElementById("resultTeslaYear").innerHTML = "Ops! Try again!";
+  }
 }
