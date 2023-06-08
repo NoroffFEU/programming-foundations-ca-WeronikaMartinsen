@@ -60,6 +60,7 @@ img {
 }
 .select {
   display: flex;
+  margin-top: 0.7em;
 }
 #dropdown {
   border-radius: 20px;
