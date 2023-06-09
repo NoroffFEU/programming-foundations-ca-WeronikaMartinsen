@@ -1,6 +1,19 @@
-# Tesla Object
+#Programming Foundations CA
 
-This object has the following properties:
+Required Properties
+This object must contain well-named properties that describe your chosen item.
+
+The item must have at least one property of each of the following types:
+
+String
+Number
+Boolean
+Array
+Function
+
+#TESLA
+
+I decided to describe a Tesla as my object. The item has following properties:
 
 - Brand (String), A string property representing the car's make, which is set to "Tesla".
 - Model (String), A string property representing the car's model, which is set to "Model 3".
@@ -12,3 +25,9 @@ This object has the following properties:
 - Features (Array), An array property containing various features of the car, such as Autopilot, full self-driving capability, and a premium interior.
 - StartEngine (Function), A function property that represents the action of starting the car's engine. It logs a message to the console indicating that the engine has started.
 - StopEngine (Function), A function property that represents the action of stopping the car's engine. It logs a message to the console indicating that the engine has stopped.
+
+#References:
+
+- Images: http://unsplash.com
+- Icons: http://iconify.com
+- Fonts: http://googlefonts.com
