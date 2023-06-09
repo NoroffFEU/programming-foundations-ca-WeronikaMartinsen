@@ -1,6 +1,7 @@
-#Programming Foundations CA
+# Programming Foundations CA
 
-Required Properties
+# Required Properties
+
 This object must contain well-named properties that describe your chosen item.
 
 The item must have at least one property of each of the following types:
@@ -11,7 +12,7 @@ Boolean
 Array
 Function
 
-#TESLA
+# TESLA
 
 I decided to describe a Tesla as my object. The item has following properties:
 
@@ -26,7 +27,7 @@ I decided to describe a Tesla as my object. The item has following properties:
 - StartEngine (Function), A function property that represents the action of starting the car's engine. It logs a message to the console indicating that the engine has started.
 - StopEngine (Function), A function property that represents the action of stopping the car's engine. It logs a message to the console indicating that the engine has stopped.
 
-#References:
+# References:
 
 - Images: http://unsplash.com
 - Icons: http://iconify.com
