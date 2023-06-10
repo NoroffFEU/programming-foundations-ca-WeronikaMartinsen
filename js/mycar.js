@@ -31,7 +31,7 @@ function changeHeading() {
 buttonSmaller.onclick = changeHeading;
 
 function changeColors() {
-  body.style.backgroundColor = "white";
+  body.style.backgroundColor = "#9f5353";
   paragraph.style.color = "white";
 }
 buttonColors.onclick = changeColors;
