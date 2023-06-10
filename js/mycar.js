@@ -115,7 +115,7 @@ for (var i = 0; i < products.length; i++) {
 /////////////////////////////////////Changes images - statement/////////////////
 
 var sliderImage = document.querySelector(".slider-image");
-var images = ["tesla-2.jpg", "tesla-5.jpg", "tesla-6.jpg"];
+var images = ["tesla-1.jpg", "tesla-5.jpg", "tesla-6.jpg"];
 var i = 0;
 
 function prev() {
