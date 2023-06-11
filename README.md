@@ -1,2 +1,34 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11229985&assignment_repo_type=AssignmentRepo)
 # Programming Foundations CA
+
+# Required Properties
+
+This object must contain well-named properties that describe your chosen item.
+
+The item must have at least one property of each of the following types:
+
+String
+Number
+Boolean
+Array
+Function
+
+# TESLA
+
+I decided to describe a Tesla as my object. The item has following properties:
+
+- Brand (String), A string property representing the car's make, which is set to "Tesla".
+- Model (String), A string property representing the car's model, which is set to "Model 3".
+- Year (Number), A number property representing the year the car was manufactured, which is set to 2022.
+- Color (String), A string property representing the car's color, which is set to "White".
+- Milage (Number), A number property representing the car's mileage, which is set to 10,000.
+- isElectric (Boolean), A boolean property representing whether the car is electric, which is set to true.
+- On (Boolean), A boolean property representing whether the engine is on, which is set to true.
+- Features (Array), An array property containing various features of the car, such as Autopilot, full self-driving capability, and a premium interior.
+- StartEngine (Function), A function property that represents the action of starting the car's engine. It logs a message to the console indicating that the engine has started.
+- StopEngine (Function), A function property that represents the action of stopping the car's engine. It logs a message to the console indicating that the engine has stopped.
+
+# References:
+
+- Images: http://unsplash.com
+- Icons: http://iconify.com
+- Fonts: http://googlefonts.com

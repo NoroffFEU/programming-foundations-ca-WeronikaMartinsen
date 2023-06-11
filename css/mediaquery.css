@@ -1,0 +1,41 @@
+@media (max-width: 740px) {
+  #slider {
+    width: 25em;
+  }
+}
+@media (max-width: 650px) {
+  #info {
+    grid-template-columns: 1fr 1fr;
+  }
+  img {
+    width: 100%;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 520px) {
+  #slider {
+    width: 20em;
+  }
+}
+@media (max-width: 450px) {
+  #info {
+    grid-template-columns: 1fr;
+  }
+  #slider {
+    width: 17em;
+  }
+}
+@media (max-width: 370px) {
+  #slider {
+    width: 12em;
+  }
+  span {
+    font-size: 0.8em;
+  }
+}
